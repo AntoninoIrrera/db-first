@@ -1,0 +1,19 @@
+
+nome tabella: macchine_usate
+
+
+
+
+
+    id                  -   intero      -   mediumint       -   primary_key
+    targa               -   stringa     -   varchar(7)      -   notnull
+    marca               -   stringa     -   varchar(50)     -   notnull
+    modello             -   stringa     -   varchar(50)     -   notnull
+    km                  -   intero      -   mediumint       -   notnull
+    anno                -   date        -   year            -   notnull
+    tipo_carburante     -   stringa     -   varchar(30)     -   notnull
+    tipo_cambio         -   stringa     -   varchar(25)     -   notnull
+    numero_portiere     -   intero      -   tinyint         -   null
+    numero_posti        -   intero      -   tinyint         -   null
+
+
